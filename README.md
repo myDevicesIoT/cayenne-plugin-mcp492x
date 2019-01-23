@@ -22,8 +22,11 @@ A plugin allowing the [Cayenne Pi Agent](https://github.com/myDevicesIoT/Cayenne
 
 ### 2. Modifying the plugin
 
-   Specify the device you are using by setting the `class` value under the `MCP` section in the `cayenne-mcp23xxx.plugin` file.
+   Specify the device you are using by setting the `class` value under the `MCP` section in the `cayenne-mcp492x.plugin` file.
    By default this is set to `MCP4922` but it can also be set `MCP4921`.
+
+   If you use a `MCP4921` device instead of a `MCP4922` or you do not want the raw channel values to be displayed in the Cayenne 
+   dashboard you can disable any of the individual input sections in `cayenne-mcp492x.plugin`.
 
 ### 3. Restarting the agent
 
