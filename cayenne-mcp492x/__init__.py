@@ -7,7 +7,7 @@ from myDevices.plugins.analog import AnalogOutput
 
 
 class MCP492X(SPI, DAC):
-    """Base class for interacting with a MCP492X extensions."""
+    """Base class for interacting with MCP492X devices."""
 
     def __init__(self, chip, channel_count, vref):
         """Initializes MCP492X device.
