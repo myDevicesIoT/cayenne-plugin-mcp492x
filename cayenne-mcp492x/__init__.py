@@ -1,5 +1,5 @@
 """
-This module provides classes for interfacing with a MCP4725 Analog I/O extension.
+This module provides classes for interfacing with a MCP492X devices.
 """
 from myDevices.devices.spi import SPI
 from myDevices.devices.analog import DAC
