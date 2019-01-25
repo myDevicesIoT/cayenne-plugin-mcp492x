@@ -1,6 +1,6 @@
 [MCP]
 enabled=true
-module=cayenne-mcp492x
+module=cayenne_mcp492x
 class=MCP4922
 read=read
 write=write
@@ -8,9 +8,9 @@ write=write
 [MCP_OUT1]
 enabled=true
 channel=0
-module=cayenne-mcp492x
+module=cayenne_mcp492x
 class=AnalogOutput
-init_args={"plugin_id":"cayenne-mcp492x:MCP"}
+init_args={"plugin_id":"cayenne_mcp492x:MCP"}
 read=read
 read_args={"channel":$channel, "value_type":"float"}
 write=write
